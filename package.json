@@ -1,11 +1,14 @@
 {
   "name": "@devindex/koa-api",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Koa Server API",
-  "main": "src/index.js",
+  "main": "lib/App.js",
+  "files": [
+    "lib/*"
+  ],
   "scripts": {
-    "dev": "nodemon --exec babel-node ./src/index.js",
-    "build": "babel src -d dist",
+    "dev": "nodemon ./sample/index.js",
+    "release": "bash ./release.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
