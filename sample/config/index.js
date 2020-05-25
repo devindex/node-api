@@ -1,9 +1,11 @@
-import app from './app';
+const app = require('./app');
 
-export const configs = {
+const configs = {
   app,
 };
 
-export async function startup(config) {
+async function startup(config) {
   console.log(`App in ${config.get('app.mode')} mode`);
 }
+
+module.exports = { configs, startup };

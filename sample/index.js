@@ -1,6 +1,6 @@
-import App from '../src/App';
-import rest from './rest';
-import * as config from './config';
+const App = require('../lib/App');
+const rest = require('./rest');
+const config = require('./config');
 
 const app = new App({
   config,
