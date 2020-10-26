@@ -13,19 +13,19 @@
   },
   "dependencies": {
     "@hapi/boom": "^9.1.0",
-    "@hapi/joi": "^17.1.1",
     "@koa/cors": "^3.1.0",
-    "@koa/router": "^8.0.8",
+    "@koa/router": "^9.4.0",
+    "joi": "^17.3.0",
     "koa": "^2.13.0",
-    "koa-bodyparser": "^4.3.0",
-    "mongoose": "^5.10.4"
+    "koa-bodyparser": "^4.3.0"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
-    "eslint": "^7.8.1",
+    "eslint": "^7.12.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0"
+    "eslint-plugin-import": "^2.22.1",
+    "mongoose": "^5.10.10"
   },
   "repository": {
     "type": "git",
