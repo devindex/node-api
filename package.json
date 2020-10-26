@@ -1,7 +1,7 @@
 {
-  "name": "@devindex/koa-api",
-  "version": "0.1.2",
-  "description": "Koa Server API",
+  "name": "@devindex/node-api",
+  "version": "0.1.3",
+  "description": "NodeJS Server API (based on Koa 2)",
   "main": "lib/App.js",
   "files": [
     "lib/*"
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devindex/koa-api.git"
+    "url": "git+https://github.com/devindex/node-api.git"
   },
   "keywords": [
     "koa",
@@ -37,8 +37,8 @@
   ],
   "author": "Sergio Rodrigues <exprodrigues@gmail.com>",
   "bugs": {
-    "url": "https://github.com/devindex/koa-api/issues"
+    "url": "https://github.com/devindex/node-api/issues"
   },
-  "homepage": "https://github.com/devindex/koa-api#readme",
+  "homepage": "https://github.com/devindex/node-api#readme",
   "license": "MIT"
 }
