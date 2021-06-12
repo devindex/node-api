@@ -1,13 +1,8 @@
 const Router = require('../lib/Router');
-const { capitalize } = require('../lib/utils/string');
+const ctrl = require('./controllers/sample');
 
 const router = new Router();
 
-router.get('/', async (ctx) => {
-  ctx.body = {
-    status: 'OK',
-    name: capitalize(ctx.query.name || 'John Doe'),
-  };
-});
+router.get('/', ctrl.index);
 
 module.exports = { router };
