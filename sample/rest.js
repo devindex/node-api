@@ -1,4 +1,4 @@
-const Router = require('../lib/Router');
+const { Router } = require('../lib');
 const ctrl = require('./controllers/sample');
 
 const router = new Router();
