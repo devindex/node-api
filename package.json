@@ -1,6 +1,6 @@
 {
   "name": "@devindex/node-api",
-  "version": "1.0.0-rc",
+  "version": "1.0.0",
   "description": "NodeJS Server API (based on Koa 2)",
   "main": "lib/index.js",
   "files": [
