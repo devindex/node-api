@@ -15,17 +15,17 @@
     "@hapi/boom": "^9.1.4",
     "@koa/cors": "^3.1.0",
     "@koa/router": "^10.1.1",
-    "joi": "^17.4.2",
-    "koa": "^2.13.1",
+    "joi": "^17.6.0",
+    "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0",
-    "mongoose": "^5.13.9"
+    "mongoose": "^6.2.4"
   },
   "devDependencies": {
-    "dotenv": "^10.0.0",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.24.2"
+    "dotenv": "^16.0.0",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
   },
   "repository": {
     "type": "git",
