@@ -11,7 +11,7 @@ then
   echo "Releasing $VERSION ..."
 
   # npm version
-  npm version $VERSION --message "[release] $VERSION"
+  npm version $VERSION --message "chore: release $VERSION"
 
   # publish
   git push origin refs/tags/v$VERSION
