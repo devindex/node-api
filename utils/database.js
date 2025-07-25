@@ -1,6 +1,6 @@
 const { Types } = require('mongoose');
 const {
-  clearNonNumbers: clearNonNumbersHelper,
+  sanitizeDigits: sanitizeDigitsHelper,
   capitalizeNameBR: capitalizeNameHelper,
 } = require('./string');
 
@@ -23,9 +23,15 @@ exports.isUUID = function isUUID(id) {
   return false;
 };
 
-exports.clearNonNumbers = function clearNonNumbers(value) {
-  return clearNonNumbersHelper(value, null);
+exports.sanitizeDigits = function sanitizeDigits(value) {
+  return sanitizeDigitsHelper(value, '');
 };
+
+/**
+ * @deprecated Use `sanitizeDigits` instead.
+ * This function will be removed in the next major release.
+ */
+exports.clearNonNumbers = exports.sanitizeDigits;
 
 exports.capitalizeName = function capitalizeName(value) {
   return capitalizeNameHelper(value);

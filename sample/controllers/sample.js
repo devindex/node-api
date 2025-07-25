@@ -1,6 +1,5 @@
-const { Controller, utils } = require('../../lib');
-
-const { capitalize } = utils.string;
+const Controller = require('../../Controller');
+const { capitalize } = require('../../utils/string');
 
 class SampleController extends Controller {
   constructor() {

@@ -1,4 +1,4 @@
-const { Router } = require('../lib');
+const Router = require('@koa/router');
 const ctrl = require('./controllers/sample');
 
 const router = new Router();

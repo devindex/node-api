@@ -4,7 +4,7 @@ class Config {
   static prepare(items = null) {
     if (!('NODE_ENV' in process.env) || !process.env.NODE_ENV) {
       // eslint-disable-next-line
-      require('dotenv').config();
+      require('dotenv').config({ quiet: true });
     }
 
     process.env.NODE_ENV = process.env.NODE_ENV || 'development';

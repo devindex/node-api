@@ -1,4 +1,4 @@
-const { App } = require('../lib');
+const App = require('../App');
 const { router } = require('./rest');
 const config = require('./config');
 
