@@ -1,4 +1,4 @@
-const { Types } = require('mongoose');
+const { isObjectIdOrHexString } = require('mongoose');
 const {
   sanitizeDigits: sanitizeDigitsHelper,
   capitalizeNameBR: capitalizeNameHelper,
@@ -12,7 +12,7 @@ exports.isObjectId = function isObjectId(id) {
   if (typeof id === 'string') {
     return id.length === 24 && objectIdRegExp.test(id);
   }
-  return id instanceof Types.ObjectId;
+  return isObjectIdOrHexString(id);
 };
 
 exports.isUUID = function isUUID(id) {
