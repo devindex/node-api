@@ -112,7 +112,7 @@ exports.capitalize = function capitalize(value, skipTerms = []) {
 
 exports.capitalizeNameBR = function capitalizeNameBR(value) {
   return module.exports.capitalize(value, [
-    'da', 'de', 'do', 'das', 'dos', 'e', 'em', 'ou', 'no', 'na', 'c/', 's/',
+    'da', 'de', 'do', 'das', 'dos', 'e', 'em', 'ou', 'no', 'na', 'com', 'c/', 's/',
   ]);
 };
 
