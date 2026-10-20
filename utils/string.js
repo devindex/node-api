@@ -127,7 +127,7 @@ exports.capitalizeFirst = function capitalizeFirst(value) {
     .split('(')
     .map((part) => exports.capitalizeWord(part.toLowerCase()))
     .join('(')
-    .replace(/[a-z]/, (char) => char.toUpperCase());
+    .replace(/^[^a-zA-Z]*[a-z]/, (match) => match.toUpperCase());
 };
 
 exports.parsePhoneBR = function parsePhoneBR(phone, defaultDDD = '00') {
